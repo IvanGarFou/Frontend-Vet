@@ -6,12 +6,12 @@ import Whatddo from "../components/home/whatddo.jsx";
 
 function Home() {
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
             <Menu />
             <Whatddo />
             <About />
             <Footer />
-        </>
+        </div>
     )
 }
 
