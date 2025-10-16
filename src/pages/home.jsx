@@ -14,9 +14,9 @@ function Home() {
     return (
         <>
             <Menu />
-            <Whatddo />
             <AdoptaMascota />
             <Donaciones />
+            <Whatddo />
             <Mensaje />
             <div className='flex flex-wrap justify-evenly m-4'>
         <NavegationCards 
