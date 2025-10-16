@@ -16,26 +16,26 @@ function Home() {
             <Menu />
             <AdoptaMascota />
             <Donaciones />
-            <Whatddo />
             <Mensaje />
+            <Whatddo />
+            <About />
             <div className='flex flex-wrap justify-evenly m-4'>
         <NavegationCards 
         text = 'ADOPCIÓN'
-        image = 'https://images.pexels.com/photos/2759564/pexels-photo-2759564.jpeg'
+        image = 'https://i.imgur.com/cDUNc0w.jpeg'
         alternativeText = 'Perrito Beagle'
         />
         <NavegationCards 
         text = 'BLOG'
-        image = 'https://images.pexels.com/photos/2759564/pexels-photo-2759564.jpeg'
+        image = 'https://i.imgur.com/pTjAHHd.jpeg'
         alternativeText = 'Casita para perro de paredes blancas y techo café'
         />
         <NavegationCards 
         text = 'INICIAR SESIÓN'
-        image = 'https://images.pexels.com/photos/2759564/pexels-photo-2759564.jpeg'
+        image = 'https://i.imgur.com/nsgqwUX.jpeg'
         alternativeText = 'Galletas para perro'
         />
       </div>
-            <About />
             <ContactUsCard />
             <Footer />
         </>

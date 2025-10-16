@@ -4,9 +4,9 @@ import { FiMail } from 'react-icons/fi';
 
 const ContactUsCard = () => {
   return (
-    <div className="flex flex-wrap items-stretch justify-center min-h-[250px]">
+    <section className="flex flex-wrap items-stretch justify-center min-h-[250px] mb-4">
       <img
-        src='https://images.pexels.com/photos/2759564/pexels-photo-2759564.jpeg'
+        src='https://i.imgur.com/dFEpxS6.jpeg'
         alt="Imagen de patitas de perrito"
         className="w-1/6 h-full object-cover"
       />
@@ -28,11 +28,11 @@ const ContactUsCard = () => {
       </section>
 
       <img
-        src='https://images.pexels.com/photos/2759564/pexels-photo-2759564.jpeg'
+        src='https://i.imgur.com/dFEpxS6.jpeg'
         alt="Imagen de patitas de perrito"
         className="w-1/6 h-full object-cover"
       />
-    </div>
+    </section>
   );
 };
 
