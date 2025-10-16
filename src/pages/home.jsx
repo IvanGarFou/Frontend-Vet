@@ -12,7 +12,7 @@ import ContactUsCard from '../components/home/ContactUsCard'
 
 function Home() {
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
             <Menu />
             <AdoptaMascota />
             <Donaciones />
@@ -38,7 +38,7 @@ function Home() {
       </div>
             <ContactUsCard />
             <Footer />
-        </>
+        </div>
     )
 }
 
